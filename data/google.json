@@ -1,0 +1,36 @@
+{
+  "rating": 5,
+  "count": 2311,
+  "mapsUri": "https://www.google.com/maps/search/?api=1&query=Tiny%20Hearts&query_place_id=ChIJsxgg_Qod1moRrp0Ar1XrN_o",
+  "lastSynced": "preview-seed (replace by running fetch-google-reviews.mjs with GOOGLE_MAPS_API_KEY)",
+  "reviews": [
+    {
+      "rating": 5,
+      "body": "Absolutely love the postpartum kit the team at tiny hearts has created!\nEspecially the cold breast packs !\nPostpartum briefs are so soft and comfortable, along with the pads and the option of reusable and disposable breast pads.\nPerfect as a gift to yourself or as a baby shower gift.",
+      "reviewer": "Jess M.",
+      "date": "2025-10-21T06:42:04.613Z",
+      "relative": "8 months ago"
+    },
+    {
+      "rating": 5,
+      "body": "The most essential and sensational first aid courses suited for everyone who has children  in their life in any capacity. Truly life changing and saving. Thank you so much Rach, Nikki and the entire Tiny Hearts Team x I am so grateful for all that I\u2019ve learnt",
+      "reviewer": "Tessa P.",
+      "date": "2024-11-25T07:51:43.436Z",
+      "relative": "a year ago"
+    },
+    {
+      "rating": 5,
+      "body": "This was so informative we had Caitlyn hope I got name right.\nI'm a nan and certainly walked out feeling confident.\nCaitlyn was amazing in explaining everything in which we can understand, a credit to her.\nThank you",
+      "reviewer": "Dot A.",
+      "date": "2024-11-23T06:56:18.371Z",
+      "relative": "a year ago"
+    },
+    {
+      "rating": 5,
+      "body": "Thank you for all that you guys do to help our tiny people and to educate parents.",
+      "reviewer": "Boneka B.",
+      "date": "2024-08-28T03:27:01.161Z",
+      "relative": "a year ago"
+    }
+  ]
+}

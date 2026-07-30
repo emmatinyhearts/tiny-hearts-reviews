@@ -1,0 +1,54 @@
+# Rebuilds the reviews site from the live Okendo feed every day and deploys
+# to GitHub Pages. Also runs on every push to main and can be triggered
+# manually from the Actions tab.
+name: Update reviews site
+
+on:
+  schedule:
+    - cron: '0 19 * * *' # 5am AEST daily
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch latest reviews from Okendo
+        run: npm run fetch
+
+      - name: Sync Google rating and reviews
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+        run: node scripts/fetch-google-reviews.mjs
+        continue-on-error: true
+
+      - name: Build site
+        run: npm run build
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

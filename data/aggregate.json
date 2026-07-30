@@ -1,0 +1,30 @@
+{
+  "dateUpdated": "2026-07-05T23:39:22.442Z",
+  "mediaCount": 81,
+  "ratingAndReviewCount": 2573,
+  "ratingAndReviewCountByLevel": {
+    "level1Count": 24,
+    "level2Count": 7,
+    "level3Count": 28,
+    "level4Count": 71,
+    "level5Count": 2443
+  },
+  "ratingAndReviewValuesTotal": 12621,
+  "ratingCount": 0,
+  "ratingCountByLevel": {},
+  "ratingValuesTotal": 0,
+  "recommendationCount": 2514,
+  "replyCount": 1603,
+  "replyWordsTotal": 101239,
+  "reviewCount": 2573,
+  "reviewCountByLevel": {
+    "level1Count": 24,
+    "level2Count": 7,
+    "level3Count": 28,
+    "level4Count": 71,
+    "level5Count": 2443
+  },
+  "reviewRatingValuesTotal": 12621,
+  "reviewWordsTotal": 90050,
+  "subscriberId_aggregateId": "d61c3f16-c7ed-40f5-a4d7-b30a48744e95"
+}

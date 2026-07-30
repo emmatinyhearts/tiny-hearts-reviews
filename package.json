@@ -1,0 +1,13 @@
+{
+  "name": "tiny-hearts-reviews-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone Tiny Hearts Education reviews site, auto-generated from the Okendo review feed.",
+  "scripts": {
+    "fetch": "node scripts/fetch-reviews.mjs",
+    "build": "node scripts/build.mjs",
+    "update": "npm run fetch && npm run build",
+    "preview": "python3 -m http.server 4173 -d site"
+  }
+}
