@@ -144,7 +144,8 @@ function layout({ rel, title, description, canonical, bodyClass = '', jsonLd = [
 <meta property="og:type" content="website">
 <meta property="og:url" content="${canonical}">
 <meta property="og:site_name" content="${SITE_NAME}">
-<link rel="icon" href="${rel}assets/logo.png">
+<link rel="icon" type="image/png" sizes="32x32" href="${rel}assets/favicon-32.png">
+<link rel="apple-touch-icon" href="${rel}assets/apple-touch-icon.png">
 <link rel="preload" href="${rel}assets/fonts/SeasonMix-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="${rel}assets/fonts/CircularXX-Book.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="${rel}assets/fonts/CircularXX-Black.woff2" as="font" type="font/woff2" crossorigin>
