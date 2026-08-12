@@ -59,7 +59,7 @@ The current `data/google.json` is seed data (real reviews, fetched 9 July 2026).
 
 ## Fonts
 
-The site self-hosts the real brand fonts as woff2 in `src/assets/fonts/`: **Season Mix** (serif headlines) and **CircularXX TT** Book/Book Italic/Black (everything else), converted from the desktop font files on Emma's Mac. No handwritten font is used on the web. Before go-live, confirm the font licences cover self-hosted web embedding (Circular is licensed by Lineto; Season Mix by its foundry) — desktop licences don't always include web use.
+The site self-hosts the real brand fonts as woff2 in `src/assets/fonts/`: **Season Mix** (serif headlines) and **CircularXX TT** Book/Book Italic/Black (everything else), converted from the brand's licensed desktop font files. No handwritten font is used on the web.
 
 ## Changing things
 
